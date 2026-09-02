@@ -56,6 +56,7 @@ int main(void)
     /* Print a note to terminal. */
     PRINTF("\r\n GPIO Driver example\r\n");
     PRINTF("\r\n The LED is blinking.\r\n");
+    PRINTF("\r\n Sistemas Embebidos.\r\n");
 
     /* Init output LED GPIO. */
     GPIO_PinInit(BOARD_LED_GPIO, BOARD_LED_GPIO_PIN, &led_config);
